@@ -27,12 +27,14 @@ void loop() {
     if (targetTemp <= predefinedTemp)
     { 
        digitalWrite(relayPin, HIGH);
-       delay(6000);       
+       delay(6000); 
+       digitalWrite(relayPin, LOW);
     }
     else
     {
       digitalWrite(buzzerPin, HIGH); 
       delay(3000);
+      digitalWrite(buzzerPin, LOW); 
     }
   }
 }
