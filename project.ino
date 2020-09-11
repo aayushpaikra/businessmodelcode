@@ -2,7 +2,7 @@
 #include <SparkFunMLX90614.h>
 
 IRTherm therm;
-#define relayPin 12 
+#define relayPin 2 
 #define buzzerPin 13 
 #define obstaclePin 8
 float targetTemp;
